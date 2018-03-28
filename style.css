@@ -1,0 +1,79 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    text-align: center
+}
+
+.main {
+    margin-top:10px;
+}
+
+button.btn {
+    background: transparent;
+    border: none;
+
+    color: #00f28f;
+    cursor: pointer;
+
+    font-size: 20px;
+
+    transition: background 2s, color 2s;
+}
+
+button.btn:hover {
+    background: #00f28f;
+    color: #fff;
+}
+
+.table td{
+    cursor:pointer;
+    text-align: center;
+    vertical-align: middle;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+    
+
+.table {
+    margin: 0px auto;
+    float: none;
+
+    table-layout: fixed;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+html {
+  font-size: 16px;
+}
+
+/* xs < 768 */
+ @media screen and (max-width: 767px) {
+    th, td {
+        font-size: 0.8em;
+    }
+}
+/* sm */
+ @media screen and (min-width: 768px) {
+    th, td {
+        font-size: 1em;
+    }
+}
+/* md */
+ @media screen and (min-width: 992px) {
+    th, td {
+        font-size: 1.2em;
+    }
+}
+/* lg */
+ @media screen and (min-width: 1200px) {
+    th, td {
+        font-size: 1.3em;
+    }
+}
